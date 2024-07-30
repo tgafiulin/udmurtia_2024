@@ -1,0 +1,91 @@
+.icons .icon {
+    list-style-type: none; /* Убираем исходные маркеры */
+    background-repeat: no-repeat ;
+    background-position: 0 50%; /* Параметры фона */
+    background-size: 20px;
+    padding-left: 35px;
+}
+
+.icons .icon::before {
+    display: none;
+}
+
+.podcast {
+    background-image: url('./podcast.png');
+}
+
+.breakfast {
+    background-image: url('./breakfast.png');
+}
+
+.twitter {
+    background-image: url('./twitter.png');
+}
+
+.agressor {
+    background-image: url('./aggressor.png');
+}
+
+.culture {
+    background-image: url('./culture.png');
+}
+
+.error {
+    background-image: url('./error.png');
+}
+
+.university {
+    background-image: url('./university.png');
+}
+
+.teacher {
+    background-image: url('./teacher.png');
+}
+
+.marathon {
+    background-image: url('./marathon.png');
+}
+
+.javascript {
+    background-image: url('./javascript.png');
+}
+
+.youtube {
+    background-image: url('./youtube.png');
+}
+
+.git {
+    background-image: url('./git.png');
+}
+
+.todo {
+    background-image: url('./todo.png');
+}
+
+.flexible {
+    background-image: url('./flexible.png');
+}
+
+.listen {
+    background-image: url('./listen.png');
+}
+
+.motivation {
+    background-image: url('./motivation.png');
+}
+
+.patient {
+    background-image: url('./patient.png');
+}
+
+.time {
+    background-image: url('./time.png');
+}
+
+.ultrateach {
+    background-image: url('./ultrateach.png');
+}
+
+.exp {
+    background-image: url('./exp.png');
+}
