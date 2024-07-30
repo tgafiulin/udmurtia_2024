@@ -1,0 +1,148 @@
+@import url('./icons/icons.css');
+
+.slide h2 {
+    color: #000;
+}
+
+.paddings {
+    padding: 0;
+}
+
+/* .slide:first-of-type:after {
+    background: none;
+    color: transparent
+}
+
+.slide:after {
+    top: auto;
+    bottom: -10px;
+    left: 30px;
+    right: auto;
+    background: none;
+    color: #000;
+} */
+
+.slide .shout {
+    font-size: 110px;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.slide.label-header h2 {
+    display: inline-block;
+    background: rgba(60,122,110,0.8);
+    padding: 12px;
+    font-family: 'Actay Wide', sans-serif;
+    font-size: 35px;
+    color: #efefef;
+}
+
+.slide.label-header h2.shout {
+    margin-left: 0;
+    padding: 20px 0;
+    font-size: 52px;
+    color: #efefef;
+    border: none;
+    background: none;
+}
+
+.slide.label-header.bg h2 {
+    background: none;
+    padding: 0;
+    color: #efefef;
+}
+
+.bg10 img {
+    height: auto!important;
+    width: 70%;
+}
+
+.bg8 img {
+    height: auto!important;
+    width: 40%;
+}
+
+.slide {
+    padding: 35px var(--slide-side) 0;
+}
+
+.h-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 320px;
+}
+
+.h-fullimage h2 {
+    position: relative;
+    z-index: 1;
+    background-color: #009999;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 -15px;
+}
+
+.h-fullimage img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.double-image {
+    display: flex;
+    padding: 0;
+}
+
+.double-image img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-with-image {
+    padding: 0;
+    display: flex;
+}
+
+.text-with-image > *:first-child {
+    padding: 75px 0 75px calc(var(--slide-side) / 2);
+    align-self: center;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.text-with-image > img {
+    height: auto;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+.present-img {
+    max-width: 40%;
+    left: 55%;
+}
+
+li {
+    font-size: 80%;
+}
+
+#slide55::after,
+#slide56::after {
+    visibility: hidden;
+}
+
+ul.center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+font-size: 2rem;
+}
